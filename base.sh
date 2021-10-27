@@ -35,7 +35,7 @@ useradd -m huzzyz
 echo huzzyz:password | chpasswd
 usermod -aG libvirt huzzyz
 
-echo "huzzyz ALL=(ALL) ALL" >> /etc/sudoers.d/ermanno
+echo "huzzyz ALL=(ALL) ALL" >> /etc/sudoers.d/huzzyz
 
 
 printf "\e[1;32mDone! Type exit, umount -a and reboot.\e[0m"
